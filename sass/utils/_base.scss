@@ -5,11 +5,11 @@ body {
 }
 
 @font-face {
-  font-family: "TT Travels", sans-serif;
+  font-family: 'TT Travels', sans-serif;
   font-style: normal;
   font-weight: 400;
-  src: local("TTTravels-Medium"),
-    url("../fonts/TTTravels-Thin/TTTravels-Medium.ttf") format("truetype");
+  src: local('TTTravels-Medium'),
+    url('../fonts/TTTravels-Thin/TTTravels-Medium.ttf') format('truetype');
 }
 
 img {
@@ -57,6 +57,9 @@ p,
 button {
   margin: 0%;
   padding: 0%;
+}
+
+button {
   cursor: pointer;
   border: none;
   outline: none;
