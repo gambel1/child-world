@@ -1,0 +1,34 @@
+/* checkbox */
+.digital__form--checkbox {
+  margin-top: 55px;
+  margin-bottom: 44px;
+}
+
+.digital__form--inner {
+  line-height: 140%;
+  letter-spacing: 1.08px;
+  display: flex;
+  gap: 12px;
+}
+
+.digital__form--input {
+  display: none;
+}
+
+#checkboxTrue {
+  display: none;
+}
+
+.digital__form--button {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 1.44px;
+
+  width: 100%;
+  padding: 14px 50px;
+  border-radius: 8px;
+  color: var(--color-white);
+  background-color: var(--color-button);
+}

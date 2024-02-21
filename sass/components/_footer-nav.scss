@@ -1,0 +1,24 @@
+/* footer-nav */
+.footer__nav--box {
+  margin-bottom: 52px;
+}
+
+.footer__nav--wrap {
+  margin-bottom: 44px;
+}
+
+.footer__nav--title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 1.2px;
+
+  margin-bottom: 32px;
+  color: var(--color-white);
+}
+
+.footer__nav--list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

@@ -1,0 +1,37 @@
+/* address */
+.footer__address--wrapper {
+  margin-bottom: 53px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 64px;
+  }
+}
+
+.footer__address--list {
+  display: flex;
+  gap: 16px;
+}
+.footer__address--list:nth-child(2) {
+  margin-bottom: 24px;
+}
+
+.footer__address--element {
+  font-family: var(--TTTravels-Medium);
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.65;
+  letter-spacing: 0.8px;
+
+  color: var(--color-white);
+}
+
+.footer__address--item,
+.footer__address--link,
+.footer__nav--link {
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: 1.44px;
+
+  color: var(--color-white);
+}

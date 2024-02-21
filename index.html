@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Childs World</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__box">
+          <button class="hero__logo" type="button">
+            <svg width="48" height="32">
+              <use href="./images/icons.svg#icon-background"></use>
+            </svg>
+          </button>
+          <button class="hero__burger hero__logo" type="button">
+            <svg width="24" height="16">
+              <use href="./images/icons.svg#icon-burger-menu"></use>
+            </svg>
+          </button>
+        </div>
+        <ul class="hero__list">
+          <li>
+            <div>
+              <h1 class="hero__title">Hello World ! My name is Ira</h1>
+              <p class="hero__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Faucibus tristique vulputate ultrices ut mauris tellus at.
+                Posuere sollicitudin odio tellus elit.
+              </p>
+              <button class="hero__button" type="button">
+                See Our Project
+              </button>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img class="hero__img" src="./images/hero-img.jpeg" alt="hero" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="digital">
+      <div class="container container__current">
+        <div class="digital__grid">
+          <h2 class="digital__title">
+            What we do to help our client grow in digital era?
+          </h2>
+          <ul class="digital__wrapper">
+            <li class="digital__wrapper--list">
+              <img
+                class="digital__wrapper--img__first"
+                src="./images/digital-1.png"
+                alt="digital icons"
+              />
+              <div>
+                <h3 style="width: 214px" class="digital__wrapper--text">
+                  Bring Technology To Your
+                </h3>
+                <p class="digital__wrapper--item">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a class="digital__wrapper--link" href="#"
+                  >Learn more
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-arrow"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="digital__wrapper--list digital__wrapper--list__current">
+              <img
+                class="digital__wrapper--img__second"
+                src="./images/digital-2.png"
+                alt="digital icons"
+              />
+              <div>
+                <h3 style="width: 246px" class="digital__wrapper--text">
+                  Make Your business To Be Better Famous
+                </h3>
+                <p class="digital__wrapper--item">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a class="digital__wrapper--link" href="#"
+                  >Learn more
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-arrow"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="digital__wrapper--list">
+              <img
+                class="digital__wrapper--img__third"
+                src="./images/digital-3.png"
+                alt="digital icons"
+              />
+              <div>
+                <h3
+                  class="digital__wrapper--text digital__wrapper--text__current"
+                >
+                  Build Your Digital Product That Suitable
+                </h3>
+                <p class="digital__wrapper--item">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a class="digital__wrapper--link" href="#"
+                  >Learn more
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-arrow"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="digital__form">
+          <h3 class="digital__form--title">Registration</h3>
+          <form>
+            <div class="digital__form--wrapper">
+              <ul class="digital__form--box digital__form--box__current">
+                <li class="digital__form--list">
+                  <label class="digital__form--label" for="user-name"
+                    >Name
+                    <input type="text" id="user-name" placeholder="Your name" />
+                  </label>
+                </li>
+                <li class="digital__form--list">
+                  <label class="digital__form--label" for="user-surname"
+                    >Surname
+                    <input
+                      type="text"
+                      id="user-surname"
+                      placeholder="Your surname"
+                    />
+                  </label>
+                </li>
+              </ul>
+              <ul class="digital__form--box">
+                <li class="digital__form--list">
+                  <label class="digital__form--label" for="user-phone"
+                    >Phone number
+                    <input
+                      type="number"
+                      id="user-phone"
+                      placeholder="+38 ___ ___ __ __"
+                    />
+                  </label>
+                  <p class="digital__form--item">*Use only numbers</p>
+                </li>
+                <li class="digital__form--list">
+                  <label class="digital__form--label" for="user-email"
+                    >Email
+                    <input
+                      type="email"
+                      id="user-email"
+                      placeholder="email@email.com"
+                    />
+                  </label>
+                  <p class="digital__form--item">
+                    *Use only latin letters and characters ._-@
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="digital__form--checkbox">
+              <label class="digital__form--inner">
+                <input
+                  class="digital__form--input"
+                  type="checkbox"
+                  id="myCheckbox"
+                />
+                <span>
+                  <svg id="checkboxTrue" width="28" height="28">
+                    <use href="./images/icons.svg#icon-checked-true"></use>
+                  </svg>
+                </span>
+                <span>
+                  <svg id="checkboxFalse" width="28" height="28">
+                    <use href="./images/icons.svg#icon-checked-false"></use>
+                  </svg> </span
+                >I agree with The Terms of Use and with The Privacy Policy
+              </label>
+            </div>
+            <button class="digital__form--button" type="button">
+              Register me!
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__box">
+          <div>
+            <h2 class="footer__title">Intersted to work with our team?</h2>
+            <p class="footer__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <button class="footer__button" type="button">Let’s Talk</button>
+        </div>
+      </div>
+      <span class="footer__element"></span>
+      <div class="container">
+        <div class="footer__row">
+          <div>
+            <button type="button" class="footer__logo hero__logo">
+              <svg width="48" height="32">
+                <use href="./images/icons.svg#icon-logo-footer"></use>
+              </svg>
+            </button>
+            <address>
+              <ul class="footer__address--wrapper">
+                <li class="footer__address--list">
+                  <span class="footer__address--element">A.</span>
+                  <p class="footer__address--item">
+                    Lorem ipsum dolor sit<br />
+                    amet, consectetur<br />
+                    adipisicing elit.
+                  </p>
+                </li>
+                <li class="footer__address--list">
+                  <span class="footer__address--element">T.</span
+                  ><a class="footer__address--link" href="tel:+380912345678"
+                    >+38 091 234 56 78</a
+                  >
+                </li>
+                <li class="footer__address--list">
+                  <span class="footer__address--element">E</span
+                  ><a
+                    class="footer__address--link"
+                    href="mailto:hello.ira@gmail.com"
+                    >hello.ira@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <nav>
+            <div class="footer__nav--box">
+              <h4 class="footer__nav--title">About US</h4>
+              <ul class="footer__nav--list">
+                <li><a class="footer__nav--link" href="#">About</a></li>
+                <li><a class="footer__nav--link" href="#">What We Do</a></li>
+                <li><a class="footer__nav--link" href="#">Project</a></li>
+                <li>
+                  <a class="footer__nav--link" href="#">How It Work With Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <nav>
+            <div class="footer__nav--wrap">
+              <h4 class="footer__nav--title">Follow</h4>
+              <ul class="footer__nav--list">
+                <li><a class="footer__nav--link" href="#">Instagram</a></li>
+                <li><a class="footer__nav--link" href="#">Facebook</a></li>
+                <li><a class="footer__nav--link" href="#">LinkedIn</a></li>
+                <li><a class="footer__nav--link" href="#">Youtube</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <p class="footer__part">2019 &#169; All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/index.js" type="module"></script>
+</html>
